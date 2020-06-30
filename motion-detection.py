@@ -19,7 +19,7 @@ kernel = np.ones((3, 3), np.uint8)
 
 message = MIMEMultipart()   # create message object
 # message parameters setup
-password = "motiondetection"
+password = "motiondetection"                    #your email pass
 message['From'] = "mail@gmail.com"              #email address as mail sender
 message['To'] = "mail@gmail.com"                #email address to send capture
 message['Subject'] = "Motion Detection Frame"
